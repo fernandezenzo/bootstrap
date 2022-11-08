@@ -1,90 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="bootstrap.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap.css">
+  <title>Document</title>
 </head>
+
 <body>
-    <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
-          <h5 class="text-white h4">EH BAH NON!</h5>
-          <span class="text-muted">Il n'y a rien a voir ici! C'était un petit test...</span>
-        </div>
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+      <h5 class="text-white h4">EH BAH NON!</h5>
+      <span class="text-muted">Il n'y a rien a voir ici! C'était un petit test...</span>
     </div>
-    <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid justify-content-evenly">
-          <a class="navbar-brand" href="#">
-            <img src="c:\Users\enzo\Pictures\twitch\LOGO twitch.jpg" alt="" width="100" height="100" class="rounded" class="d-inline-block align-text-center img-fluid">
-            El Pèpétoo
-          </a>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+  </div>
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid justify-content-evenly">
+      <a class="navbar-brand" href="#">
+        <img src="tamo.png" alt="" width="200" height="200" class="rounded"
+          class="d-inline-block align-text-center img-fluid">
+        El Pèpétoo
+      </a>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </div>
+  </nav>
+
+  <!------body------>
+
+  <div class="container text-center text-white mt-4 container-sm">
+    <div class="row">
+      <div class="col">
+        <div id="tamo"> <img src="ailesange-removebg-preview.png" alt="panda" width="300" height="300" class="rounded img-fluid" id="imgTamo"></div>
+        <div class="row">
+          <div class="col align-self-center fs-1">Notez ce délicieu logo créer par mes soins</div>
         </div>
-      </nav>
+        <div class="row mt-5 border-top">
+          <div class="col 12 fs-1">Je vais maintenant vous dévoiler ces champions de luxe...</div>
+        </div>
 
-<!------body------>
+        <div class="container container-sm mb-3">
+          <div class="row">
+            <div class="col-md-6 offset-md-3">
+              <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner text-center mt-5">
+                  <div class="carousel-item active">
+                    <img src="vex.jpg" class="d-block w-100 img-fluid rounded" alt="champion">
+                    <div class="carousel-caption d-none d-md-block fs-3">
+                      <h5>Vex</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="aatrox.jpg" class="d-block w-100 img-fluid rounded" alt="champion">
+                    <div class="carousel-caption d-none d-md-block fs-3">
+                      <h5>Aatrox</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="zoe.jpg" class="d-block w-100 img-fluid rounded" alt="champion">
+                    <div class="carousel-caption d-none d-md-block fs-3">
+                      <h5>Zoé</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Button trigger modal -->
+        <button id="butbut" type="button" class="btn btn-danger col-md-6" data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          style="--bs-btn-padding-y: .75rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+          attend quoi?..
+        </button>
 
-      <div class="container text-center text-white mt-4 container-sm">
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5 bg-danger col-10" id="exampleModalLabel">bouh</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="tamo.jpg" alt="tamo">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis tenetur accusantium at exercitationem autem natus magnam eum. Quidem ut voluptatibus beatae nemo sint, laboriosam, in illum delectus, blanditiis eum voluptatem.</p>
+          </div>
+          <div class="col">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat libero enim debitis. Voluptatibus explicabo distinctio ullam deleniti repellat. Consectetur optio cupiditate reprehenderit dicta, suscipit architecto! Quis voluptas impedit quas molestias!</p>
+          </div>
+          <div class="col">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet deleniti atque et optio accusamus vero sunt unde iusto. Aut, ut? Quibusdam exercitationem architecto ea nostrum, optio ex quos suscipit.</p>
+          </div>
+          <div class="col">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus fugit placeat doloremque error adipisci nemo, ut eligendi nulla fuga. Nostrum numquam, in quis blanditiis quos sapiente nesciunt cumque? Sequi, quaerat.</p>
+          </div>
+          <div class="col">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dolores, debitis officia dignissimos quia quae hic maxime sit sed nesciunt animi modi quas quisquam. Fuga id nisi non delectus adipisci.</p>
+          </div>
+        </div>
         <div class="row">
           <div class="col">
-            <img src="c:\Users\enzo\Pictures\twitch\LOGO twitch.jpg" alt="panda" width="300" height="300" class="rounded img-fluid">
-          <div class="row">
-            <div class="col align-self-center fs-1">Notez ce délicieu logo créer par mes soins</div>
-            </div>
-        <div class="row mt-5 border-top">
-            <div class="col 12 fs-1">Je vais maintenant vous dévoiler ces champions de luxe...</div>
-        </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis tenetur accusantium at exercitationem autem natus magnam eum. Quidem ut voluptatibus beatae nemo sint, laboriosam, in illum delectus, blanditiis eum voluptatem.</p>
           </div>
-
-
-      
-
-     <div class="container container-sm mb-3">
-        <div class="row">
-            <div class="col-md-6 offset-md-3">
-                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                    <div class="carousel-inner text-center ">
-                      <div class="carousel-item active">
-                        <img src="vex.jpg" class="d-block w-100 img-fluid rounded" alt="champion">
-                        <div class="carousel-caption d-none d-md-block fs-3">
-                            <h5>Vex</h5>
-                          </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="aatrox.jpg" class="d-block w-100 img-fluid rounded" alt="champion">
-                        <div class="carousel-caption d-none d-md-block fs-3">
-                            <h5>Aatrox</h5>
-                          </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="zoe.jpg" class="d-block w-100 img-fluid rounded" alt="champion">
-                        <div class="carousel-caption d-none d-md-block fs-3">
-                            <h5>Zoé</h5>
-                          </div>
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-            </div>
-            
+          <div class="col">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat libero enim debitis. Voluptatibus explicabo distinctio ullam deleniti repellat. Consectetur optio cupiditate reprehenderit dicta, suscipit architecto! Quis voluptas impedit quas molestias!</p>
+          </div>
+          <div class="col">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet deleniti atque et optio accusamus vero sunt unde iusto. Aut, ut? Quibusdam exercitationem architecto ea nostrum, optio ex quos suscipit.</p>
+          </div>
+          <div class="col">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus fugit placeat doloremque error adipisci nemo, ut eligendi nulla fuga. Nostrum numquam, in quis blanditiis quos sapiente nesciunt cumque? Sequi, quaerat.</p>
+          </div>
+          <div class="col">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dolores, debitis officia dignissimos quia quae hic maxime sit sed nesciunt animi modi quas quisquam. Fuga id nisi non delectus adipisci.</p>
+          </div>
         </div>
         
-      </div> 
-    <script src="bootstrap.bundle.min.js"></script>
+        <script src="bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
